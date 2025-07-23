@@ -22,7 +22,7 @@ services:
     container_name: backend-express
     image: ghcr.io/Sanjdcool/Nodejs_Docker-Compose/express-todo-backend:latest
     expose:
-      - "3001"   # Only expose this port internally to Nginx (no external access)
+      - "3001"   # Only expose this port internally to Nginx-- (no external access)
     environment:
       - NODE_ENV=production
     networks:
